@@ -12,7 +12,7 @@ app.config.from_mapping(
 )
 CORS(app)
 
-from app.controller import (
+from controller import (
     main, pwa
 )
 app.register_blueprint(main.bp)
